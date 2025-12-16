@@ -1,4 +1,6 @@
+
 # 🌡️ Monitor Ambiental – Sistema de Monitoreo de Temperatura y Humedad
+---
 
 Sistema funcional para monitorear la temperatura y humedad de un espacio cerrado, procesando datos mediante un microcontrolador **Raspberry Pi Pico W** y un sensor ambiental (**DHT22 o BME280**), con visualización en tiempo real en una página web interactiva. Proyecto desarrollado en el **Instituto Tecnológico de Tijuana**.
 
@@ -106,7 +108,7 @@ Desarrollar un sistema que permita medir y visualizar en tiempo real la temperat
     │ Frontend React   │
     │ + TailwindCSS    │
     └─────────────────┘
-
+--- 
 ### 2. Flujo de Datos
 
 1. El **sensor** mide temperatura y humedad.
@@ -155,6 +157,7 @@ Base de Datos
 -- Crea base MonitorAmbientalDB, tablas y usuario monitor_admin
 
 ---
+
 ## Ejecutar Backend
 ## Producción
 ```
@@ -171,7 +174,7 @@ npm install
 npm start
 
 ```
-
+---
 ### Acceso en navegador: https://localhost:4000 o IP local de la PC.
 
 ### Configuración de API: src/config.js
@@ -185,17 +188,17 @@ npm start
 ### Conectar sensor según esquema GPIO.
 
 ### Ejecutar script para transmisión de datos.
-
+--- 
 # 🧪 Pruebas y Resultados
 
-- Incremento controlado de temperatura (vela cercana al sensor) → +1°C detectado correctamente.
+- Incremento controlado de humedad con vaporizador. 
 
 - Humedad relativa ajustada coherentemente.
 
 - Alertas visuales generadas al superar límites.
 
 - Actualización en la web en ~5 segundos.
-
+--- 
 # 📝 Conclusiones
 
 * Sistema confiable y económico para monitoreo ambiental.
@@ -205,7 +208,7 @@ npm start
 * Escalable: posible conexión WiFi, almacenamiento en la nube y notificaciones automáticas, control de usuarios y perfiles personalizados.
 
 * Aplicable a entornos domésticos, educativos y pequeños almacenes.
-
+--- 
 # 👨‍💻 Autor
 
 Carlos Benjamín Armenta Márquez – Instituto Tecnologico de Tijuana, diciembre 2025
@@ -213,20 +216,34 @@ Carlos Benjamín Armenta Márquez – Instituto Tecnologico de Tijuana, diciembr
 # 📷 Imágenes y Diagramas 
 
 ## Diagrama de conexiones de sensor y Raspberry Pi Pico
+
 <img width="751" height="439" alt="image" src="https://github.com/user-attachments/assets/fb884fa9-10cc-4910-858c-722076fabb16" />
----
-## Capturas de la interfaz web con gráficos en tiempo real
----
-### Simulador
 
 ---
-### Prueba de conexion con raspberry
-![Imagen de WhatsApp 2025-11-11 a las 01 12 11_8bc9a70e](https://github.com/user-attachments/assets/2fa79714-2af2-47ca-9422-fae13ee596b1)
+
+## Capturas de la interfaz web con gráficos en tiempo real
+
+### Simulador
+
+*pendiente
+
 ---
+
+### Prueba de conexion con raspberry
+
+![Imagen de WhatsApp 2025-11-11 a las 01 12 11_8bc9a70e](https://github.com/user-attachments/assets/2fa79714-2af2-47ca-9422-fae13ee596b1)
+
+---
+
 ### Tarjetas en formato responsivo
+
 <img width="404" height="863" alt="image" src="https://github.com/user-attachments/assets/f7cabc89-879f-41f6-8cc1-7f2419eb4ecf" />
 
 ---
-### Ejemplo de alerta activa en la página
 
+### Ejemplo de alerta activa en la página (conexion real)
+
+*pendiente
 ---
+---
+
