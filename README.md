@@ -213,37 +213,10 @@ npm start
 
 Carlos Benjamín Armenta Márquez – Instituto Tecnologico de Tijuana, diciembre 2025
 ---
-# 📷 Imágenes y Diagramas 
 
 ## Diagrama de conexiones de sensor y Raspberry Pi Pico
 
 <img width="751" height="439" alt="image" src="https://github.com/user-attachments/assets/fb884fa9-10cc-4910-858c-722076fabb16" />
 
----
-
-## Capturas de la interfaz web con gráficos en tiempo real
-
-### Simulador
-
-*pendiente
-
----
-
-### Prueba de conexion con raspberry
-
-![Imagen de WhatsApp 2025-11-11 a las 01 12 11_8bc9a70e](https://github.com/user-attachments/assets/2fa79714-2af2-47ca-9422-fae13ee596b1)
-
----
-
-### Tarjetas en formato responsivo
-
-<img width="404" height="863" alt="image" src="https://github.com/user-attachments/assets/f7cabc89-879f-41f6-8cc1-7f2419eb4ecf" />
-
----
-
-### Ejemplo de alerta activa en la página (conexion real)
-
-*pendiente
----
 ---
 
